@@ -97,6 +97,35 @@ public class UsefullCode {
                 System.out.println(Arrays.toString(r));
             }
         }
-        
+        // How to get the average of a [[Matrix]] in java:
+        public static double findAverageOfmatrix(int[][] x) {
+            double sum = 0;
+            double size = 0; // size means number of elements in the matrix.
+            for (int i = 0; i < x.length; i++) {
+                for (int j = 0; j < x[i].length; j++) {
+                    sum += x[i][j];
+                    size++;
+                }
+            }
+            return sum / size;
+        }
+       // Factorial in java using recursion:
+       public static int factorial(int n ){
+		    if(n>0){
+		    return n*factorial(n-1);
+		    }else{
+		    return 1;
+		    }
+        }
+       // Palindrome in recursion:
+       public static boolean isPal(String s ){
+            if(s.length()<=1)//base case 
+                return true;
+            else if(s.charAt(0)!=s.charAt(s.length()-1))
+                return false;
+            else
+                return isPal(s.substring(1,s.length()-1));
+        }
+       // 
 
 }
