@@ -1,4 +1,4 @@
-package SchoolNotes.Code;
+package Code;
 
 import java.util.Arrays;
 

@@ -84,13 +84,57 @@ public static int romanToInt(String s) {
 ---
 # How I would improve this 
 
-Not sure yet 
+
+My starting intution of it being a [[Hash Map]] was right and I shouldve pursued this idea a bit futher. 
+Using the character as the key and the number as the value
+
+A post from the website "The key intuition lies in the fact that in Roman numerals, when a smaller value appears before a larger value, it represents subtraction, while when a smaller value appears after or equal to a larger value, it represents addition" which makes a ton of sense. 
+
+With knowing that main peice of info then you can reason that the for loop will pretty much do the same thing as my solution with a condtion that if the char after the one you are on is bigger  then you should substract it. 
+
+```java
+
+class Solution { 
+	public int romanToInt(String s) { 
+	Map<Character, Integer> m = new HashMap<>();
+		m.put('I', 1); 
+		m.put('V', 5); 
+		m.put('X', 10); 
+		m.put('L', 50); 
+		m.put('C', 100); 
+		m.put('D', 500); 
+		m.put('M', 1000); 
+		int ans = 0; 
+		for (int i = 0; i < s.length(); i++) { 
+			if (i < s.length() - 1 && m.get(s.charAt(i)) < m.get(s.charAt(i + 1))) { 
+				ans -= m.get(s.charAt(i)); 
+			} else { 
+				ans += m.get(s.charAt(i)); 
+			} 
+		} 
+		return ans; 
+	} 
+}
+```
+
 
 
 --- 
 
 # Questions 
 
-NOthing yet 
+
+Little confused on how he can just substrtact the chars value from if it's one of those edge cases
+
+IV => 4 
+
+so edge case hit therefore
+we subrtact the value of "I" => 1
+then on second pass we hit the "V"=>5
+so the ans = 4 and everything works out nice! 
+
+so it makes sense 
+
+
 
 
