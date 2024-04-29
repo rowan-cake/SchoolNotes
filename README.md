@@ -10,7 +10,7 @@ A place to get more comfottable with GitHub and also...
 NOTE: These are in no way totally comprehesive as most of my studying is done on paper. 
 
 ---
-# Guide
+# Guide to files
 
 ### Code
 - Has the usefull code file I made in obsidian across all my classes
