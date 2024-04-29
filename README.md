@@ -18,3 +18,4 @@ NOTE: These are in no way totally comprehesive as most of my studying is done on
 - Data 101 Intro to Data Sciecene R (UBCO)
  
 
+gfasgfs
