@@ -24,13 +24,4 @@ NOTE: These are in no way totally comprehesive as most of my studying is done on
 ### LeetCodes
 - Work space for the leetcode probelems
 - Along with a markdown file on notes I took while solving them.  
-
----
-### Classes
-- Math 225 ODES (UBCO) 
-- Cosc 121 Computer Science 2 (UBCO)
-- Cosc 210 Software Construction (UBCO)
-- Stat 230 Intro to Stats with Calculus (UBCO)
-- Cosc 111 Computer Sciecne 1 (UBCO)
-- Data 101 Intro to Data Sciecene R (UBCO)
  
