@@ -12,7 +12,8 @@ def randomPlate():
     
     """
     plate = ""
-    for i in range(3): #stars from 0 and goes till i<3
+    #stars from 0 and goes till i<3 is false
+    for i in range(3): 
         plate += chr(np.random.randint(65,91))
     for i in range(4):
         plate+=str(np.random.randint(0,10))
