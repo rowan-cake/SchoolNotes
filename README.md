@@ -7,7 +7,6 @@ A place to get more comfottable with GitHub and also...
 3. and a place to code other new random things related to school.
 4. or other random notes. 
 
-NOTE: These are in no way totally comprehesive as most of my studying is done on paper. 
 
 ---
 # Guide to files
